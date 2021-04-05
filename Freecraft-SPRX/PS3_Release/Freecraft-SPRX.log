@@ -1,0 +1,9 @@
+﻿  Freecraft.cpp
+C:\Users\PC User\Desktop\Menus\PS3\Freecraft-SPRX\Freecraft-SPRX\Freecraft.cpp(135,8): warning 1070: returning pointer to local variable
+  
+C:\Users\PC User\Desktop\Menus\PS3\Freecraft-SPRX\Freecraft-SPRX\Freecraft.cpp(155,9): warning 1070: returning pointer to local variable
+  
+C:\Users\PC User\Desktop\Menus\PS3\Freecraft-SPRX\Freecraft-SPRX\Freecraft.cpp(158): warning 942: missing return statement at end of non-void function "SendRequest"
+  
+  Freecraft-SPRX.vcxproj -> C:\Users\PC User\Desktop\Menus\PS3\Freecraft-SPRX\PS3_Release\Freecraft-SPRX.sprx
+  Cannot find the expected PRX Stub Library file: cellPrx_Freecraft-SPRX_stub.a

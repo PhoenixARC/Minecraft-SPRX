@@ -1,0 +1,29 @@
+﻿Build started 4/4/2021 21:36:20.
+     1>Project "C:\Users\phoen\Documents\Visual Studio 2010\Projects\Freecraft-SPRX\Freecraft-SPRX\Freecraft-SPRX.vcxproj" on node 2 (build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Touching "PS3_Debug\Freecraft-SPRX.unsuccessfulbuild".
+       ClCompile:
+         Freecraft.cpp
+         ps3ppusnc.exe -D_DEBUG -D__CELL_ASSERT__ -D__PS3__ -D"LIBNAME=cellPrx_Freecraft-SPRX" -D"STUBNAME=cellPrx_Freecraft-SPRX_stub" -o PS3_Debug\Freecraft.o -c -Xdepmode=1 -MD -Xmserrors -I. -IC:/usr/local/cell\target\ppu\include -IC:/usr/local/cell\target\common\include -I"C:/usr/local/cell\host-win32\sn\ppu\include" -g -O0 -Xc-=rtti "C:\Users\phoen\Documents\Visual Studio 2010\Projects\Freecraft-SPRX\Freecraft-SPRX\Freecraft.cpp"
+     1>C:\Users\phoen\Documents\Visual Studio 2010\Projects\Freecraft-SPRX\Freecraft-SPRX\Structs.h(33,6): warning 1700: class "LevelRenderer" has virtual functions but non-virtual destructor
+         
+     1>C:\Users\phoen\Documents\Visual Studio 2010\Projects\Freecraft-SPRX\Freecraft-SPRX\Structs.h(71,6): warning 1700: class "MultiPlayerLevel" has virtual functions but non-virtual destructor
+         
+     1>C:\Users\phoen\Documents\Visual Studio 2010\Projects\Freecraft-SPRX\Freecraft-SPRX\Structs.h(200,6): warning 1700: class "MultiplayerLocalPlayer" has virtual functions but non-virtual destructor
+         
+     1>C:\Users\phoen\Documents\Visual Studio 2010\Projects\Freecraft-SPRX\Freecraft-SPRX\Freecraft.cpp(186,8): warning 1070: returning pointer to local variable
+         
+     1>C:\Users\phoen\Documents\Visual Studio 2010\Projects\Freecraft-SPRX\Freecraft-SPRX\Freecraft.cpp(206,9): warning 1070: returning pointer to local variable
+         
+     1>C:\Users\phoen\Documents\Visual Studio 2010\Projects\Freecraft-SPRX\Freecraft-SPRX\Freecraft.cpp(209): warning 942: missing return statement at end of non-void function "SendRequest"
+         
+       Link:
+         C:\usr\local\cell\host-win32\sn\bin\ps3ppuld64.exe -oformat=prx -o "C:\Users\phoen\Documents\Visual Studio 2010\Projects\Freecraft-SPRX\PS3_Debug\FreecraftSprx.prx" -L"C:/usr/local/cell\host-win32\lib\prx\ldscripts" -s -strip-unused-data --start-group PS3_Debug\FJ_FuiNode.o PS3_Debug\Freecraft.o PS3_Debug\fui.o PS3_Debug\fuiFile.o PS3_Debug\fuiRenderNode.o PS3_Debug\Functions.o PS3_Debug\MenuBase.o PS3_Debug\PS3Pad.o PS3_Debug\Structs.o C:/usr/local/cell\target\ppu\lib\libc.a C:/usr/local/cell\target\ppu\lib\libc_stub.a "C:\Program Files (x86)\SN Systems\PS3\ppu\lib\sn\libsn.a" C:/usr/local/cell\target\ppu\lib\libm.a C:/usr/local/cell\target\ppu\lib\libio_stub.a C:/usr/local/cell\target\ppu\lib\libsysutil_stub.a C:/usr/local/cell\target\ppu\lib\libsysmodule_stub.a C:/usr/local/cell\target\ppu\lib\libsyscall.a C:/usr/local/cell\target\ppu\lib\libgcm_sys_stub.a "C:/usr/local/cell\host-win32\spu\lib\gcc\spu-lv2\4.1.1\libgcc.a" libsn.a libm.a libio_stub.a libfs_stub.a --end-group
+     1>SCETRACKER : error : Could not install hook for function ExitProcess in module kernel32.dll
+     1>SCETRACKER : error : Could not install hook for function ExitProcess in module kernel32.dll
+     1>Done Building Project "C:\Users\phoen\Documents\Visual Studio 2010\Projects\Freecraft-SPRX\Freecraft-SPRX\Freecraft-SPRX.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.41

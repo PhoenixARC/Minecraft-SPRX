@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Structs.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Freecraft.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuBase.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3Pad.cpp">
+      <Filter>Pad</Filter>
+    </ClCompile>
+    <ClCompile Include="FJ_FuiNode.cpp">
+      <Filter>FUI</Filter>
+    </ClCompile>
+    <ClCompile Include="fuiRenderNode.cpp">
+      <Filter>FUI</Filter>
+    </ClCompile>
+    <ClCompile Include="fuiFile.cpp">
+      <Filter>FUI</Filter>
+    </ClCompile>
+    <ClCompile Include="fui.cpp">
+      <Filter>FUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Functions.h">
+      <Filter>Functions\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Functions\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Freecraft.h">
+      <Filter>Source Code\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuBase.h">
+      <Filter>Source Code\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3Pad.h">
+      <Filter>Pad</Filter>
+    </ClInclude>
+    <ClInclude Include="FJ_FuiNode.h">
+      <Filter>FUI</Filter>
+    </ClInclude>
+    <ClInclude Include="fuiRenderNode.h">
+      <Filter>FUI</Filter>
+    </ClInclude>
+    <ClInclude Include="fuiFile.h">
+      <Filter>FUI</Filter>
+    </ClInclude>
+    <ClInclude Include="fui.h">
+      <Filter>FUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Functions">
+      <UniqueIdentifier>{0c96cc89-b98c-46e1-ac9e-1d4624889d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code">
+      <UniqueIdentifier>{960bb0cc-39d8-46e5-9364-568e8e9a87a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code\Headers">
+      <UniqueIdentifier>{e2bd8027-5716-45fb-b5c4-6dbe127207e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions\Headers">
+      <UniqueIdentifier>{e7973cbb-2cec-4d79-a819-f615afdf3b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pad">
+      <UniqueIdentifier>{8f425a9c-85e4-406f-9b0b-f4001dfd6e53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FUI">
+      <UniqueIdentifier>{e1ce6140-3164-462b-b95a-414f6b13153c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
