@@ -8,7 +8,7 @@ a testing sprx made for Minecraft on the PS3
 Main script is `Freecraft.cpp`
 
 # features
-The menu can be opened with Square and L1, and can be customized in `MenuBase.cpp`
+The menu can be opened with Square and L1, and can be customized in `MenuBase.cpp`\n
 This is **NOT** a complete build, and does not come with
 functionality such as:
 |Features
