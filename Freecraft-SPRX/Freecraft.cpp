@@ -2,6 +2,8 @@
 //
 // Original code by WaffleModz HD!
 //
+// Open Menu with square and L1
+//
 // ====================================
 //Sony
 #include <sys/prx.h>
@@ -41,6 +43,7 @@
 #include "Freecraft.h"
 
 
+
 SYS_MODULE_INFO( Freecraft_SPRX, 0, 1, 1);
 SYS_MODULE_START( _Freecraft_SPRX_prx_entry );
 SYS_MODULE_STOP( _Freecraft_SPRX_prx_exit );
@@ -63,18 +66,22 @@ void RenderScreen_Hook(uint32_t r3, uint32_t r4){
 
 
 	printf("[A!] ScreenRenderEvent\n");
+
 	RenderMenu();
 }
 
 
-
+#include "MenuBase.h"
 extern "C" int _Freecraft_SPRX_prx_entry(void) {
 	
 	printf("FreeCraft SPRX!\n=================\n");
 	printf("sprx loaded\n");
+	self.menu.CurrentMenu = MainMenu;
+	self.isMenuOpen = false;
 	
 	//Call<void>(0x00A7E2E8);
 	HookFunctionStart(0x00A89068, *(uint32_t*)(RenderScreen_Hook), *(uint32_t*)(RenderScreen_Stub)); // Hooks the rendering event
+	
 	//*(uint32_t*)(0x321F0B58) = 0x325A5EF0;//325A2EE0
 	return SYS_PRX_RESIDENT;
 }

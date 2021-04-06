@@ -1,3 +1,4 @@
+
 #pragma once
 #include "Freecraft.h"
 
@@ -14,3 +15,7 @@ int textWidth(uint32_t font, uint32_t r4);
 
 void UI_DrawText(const wchar_t * text, float x, float y, int * color);
 void UI_DrawRightText(const wchar_t * text, float x, float y, int * color);
+
+
+
+

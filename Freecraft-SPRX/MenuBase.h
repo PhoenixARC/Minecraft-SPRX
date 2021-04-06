@@ -6,6 +6,7 @@ extern int whiteColor[4];
 enum eMenus {
 	MainMenu,
 	HostMiscMods,
+	HostMiscMods1,
 	HostDamageMods,
 	HostMovementMods,
 	HostTNTMods,
@@ -40,3 +41,4 @@ struct Self {
 void RenderMenu();
 
 extern Self self;
+

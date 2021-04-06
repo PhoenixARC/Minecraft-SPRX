@@ -47,7 +47,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|PS3'">
     <TargetExt>.prx</TargetExt>
-    <TargetName>FreecraftSprx</TargetName>
+    <TargetName>MyPlugin</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|PS3'">
     <ClCompile>
@@ -57,7 +57,7 @@
     </ClCompile>
     <Link>
       <OutputFormat>PRXFile</OutputFormat>
-      <AdditionalDependencies>$(SCE_PS3_ROOT)\target\ppu\lib\libc.a;$(SCE_PS3_ROOT)\target\ppu\lib\libc_stub.a;$(SN_PS3_PATH)\ppu\lib\sn\libsn.a;$(SCE_PS3_ROOT)\target\ppu\lib\libm.a;$(SCE_PS3_ROOT)\target\ppu\lib\libio_stub.a;$(SCE_PS3_ROOT)\target\ppu\lib\libsysutil_stub.a;$(SCE_PS3_ROOT)\target\ppu\lib\libsysmodule_stub.a;$(SCE_PS3_ROOT)\target\ppu\lib\libsyscall.a;$(SCE_PS3_ROOT)\target\ppu\lib\libgcm_sys_stub.a;$(SCE_PS3_ROOT)\host-win32\spu\lib\gcc\spu-lv2\4.1.1\libgcc.a;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libsn.a;libm.a;libio_stub.a;libfs_stub.a</AdditionalDependencies>
       <InfoStripping>StripSymsAndDebug</InfoStripping>
       <DataStripping>StripFuncsAndData</DataStripping>
     </Link>
@@ -77,7 +77,6 @@
     <ClCompile Include="fuiRenderNode.cpp" />
     <ClCompile Include="Functions.cpp" />
     <ClCompile Include="MenuBase.cpp" />
-    <ClCompile Include="PS3Pad.cpp" />
     <ClCompile Include="Structs.cpp" />
   </ItemGroup>
   <ItemGroup>

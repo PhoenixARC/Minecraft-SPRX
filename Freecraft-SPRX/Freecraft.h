@@ -17,6 +17,8 @@
 
 #define CDECL extern "C"
 
+
+
 CDECL int _sys_printf(const char* fmt, ...);
 #define printf _sys_printf
 

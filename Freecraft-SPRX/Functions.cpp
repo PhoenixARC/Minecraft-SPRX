@@ -20,7 +20,7 @@ font_t MakeString(const wchar_t * str) {
 	font.dataType = 7;
 	font.wcstrlen = wcslen(str);
 	font.wcstrlen1 = wcslen(str) + 3;
-	font.unknown1 = 2.0625f;
+	font.unknown1 = 1.0625f;
 	font.unknown1 = 1.0f;
 	font.unknown1 = 1.0078125f;
 	return font;
@@ -41,4 +41,6 @@ void UI_DrawRightText(const wchar_t * text, float x, float y, int * color) {
 	int width = textWidth(mc->theMinecraft->fontRenderer, (uint32_t)&MakeString(text));
 	drawShadowText(mc->theMinecraft->fontRenderer, (uint32_t)&MakeString(text), x - width, y, Color_s(color[3], color[0], color[1], color[2]), 0, 1);
 }
+
+// Host Menu Functions
 

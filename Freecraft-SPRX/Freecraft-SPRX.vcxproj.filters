@@ -13,9 +13,6 @@
     <ClCompile Include="MenuBase.cpp">
       <Filter>Source Code</Filter>
     </ClCompile>
-    <ClCompile Include="PS3Pad.cpp">
-      <Filter>Pad</Filter>
-    </ClCompile>
     <ClCompile Include="FJ_FuiNode.cpp">
       <Filter>FUI</Filter>
     </ClCompile>
