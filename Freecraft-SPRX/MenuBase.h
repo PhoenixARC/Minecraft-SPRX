@@ -2,20 +2,12 @@
 #include "Freecraft.h"
 extern int redColor[4];
 extern int whiteColor[4];
+extern int greenColor[4];
 
 enum eMenus {
 	MainMenu,
 	HostMiscMods,
-	HostMiscMods1,
-	HostDamageMods,
-	HostMovementMods,
-	HostTNTMods,
-	EntityMods,
-	AllPlayerMods,
-	WeatherMods,
-	NonHostMovementMods,
-	NonHostMiscMods,
-	VisualMods
+	HostMiscMods1
 };
 
 struct Menu {

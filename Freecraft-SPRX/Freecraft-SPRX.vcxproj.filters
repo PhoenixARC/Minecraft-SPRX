@@ -13,18 +13,6 @@
     <ClCompile Include="MenuBase.cpp">
       <Filter>Source Code</Filter>
     </ClCompile>
-    <ClCompile Include="FJ_FuiNode.cpp">
-      <Filter>FUI</Filter>
-    </ClCompile>
-    <ClCompile Include="fuiRenderNode.cpp">
-      <Filter>FUI</Filter>
-    </ClCompile>
-    <ClCompile Include="fuiFile.cpp">
-      <Filter>FUI</Filter>
-    </ClCompile>
-    <ClCompile Include="fui.cpp">
-      <Filter>FUI</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Functions.h">
@@ -42,17 +30,8 @@
     <ClInclude Include="PS3Pad.h">
       <Filter>Pad</Filter>
     </ClInclude>
-    <ClInclude Include="FJ_FuiNode.h">
-      <Filter>FUI</Filter>
-    </ClInclude>
-    <ClInclude Include="fuiRenderNode.h">
-      <Filter>FUI</Filter>
-    </ClInclude>
-    <ClInclude Include="fuiFile.h">
-      <Filter>FUI</Filter>
-    </ClInclude>
-    <ClInclude Include="fui.h">
-      <Filter>FUI</Filter>
+    <ClInclude Include="Render.h">
+      <Filter>Source Code\Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -70,9 +49,6 @@
     </Filter>
     <Filter Include="Pad">
       <UniqueIdentifier>{8f425a9c-85e4-406f-9b0b-f4001dfd6e53}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FUI">
-      <UniqueIdentifier>{e1ce6140-3164-462b-b95a-414f6b13153c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

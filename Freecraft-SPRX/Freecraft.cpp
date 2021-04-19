@@ -41,6 +41,7 @@
  
 //Project Headers
 #include "Freecraft.h"
+#include "Render.h"
 
 
 
@@ -66,6 +67,9 @@ void RenderScreen_Hook(uint32_t r3, uint32_t r4){
 
 
 	printf("[A!] ScreenRenderEvent\n");
+	*(char*)0x205284ff = 0xFB;
+	*(char*)0x205284fe = 0xFB;
+	*(char*)0x205284fd = 0xFB;
 
 	RenderMenu();
 }
@@ -73,12 +77,12 @@ void RenderScreen_Hook(uint32_t r3, uint32_t r4){
 
 #include "MenuBase.h"
 extern "C" int _Freecraft_SPRX_prx_entry(void) {
-	
-	printf("FreeCraft SPRX!\n=================\n");
+	sys_timer_usleep(30000);
+	printf("Modded SPRX!\n=================\n");
 	printf("sprx loaded\n");
 	self.menu.CurrentMenu = MainMenu;
 	self.isMenuOpen = false;
-	
+	CreateMenu(12, 12, 2, 2);
 	//Call<void>(0x00A7E2E8);
 	HookFunctionStart(0x00A89068, *(uint32_t*)(RenderScreen_Hook), *(uint32_t*)(RenderScreen_Stub)); // Hooks the rendering event
 	

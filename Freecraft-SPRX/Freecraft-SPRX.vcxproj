@@ -70,24 +70,17 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FJ_FuiNode.cpp" />
     <ClCompile Include="Freecraft.cpp" />
-    <ClCompile Include="fui.cpp" />
-    <ClCompile Include="fuiFile.cpp" />
-    <ClCompile Include="fuiRenderNode.cpp" />
     <ClCompile Include="Functions.cpp" />
     <ClCompile Include="MenuBase.cpp" />
     <ClCompile Include="Structs.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FJ_FuiNode.h" />
     <ClInclude Include="Freecraft.h" />
-    <ClInclude Include="fui.h" />
-    <ClInclude Include="fuiFile.h" />
-    <ClInclude Include="fuiRenderNode.h" />
     <ClInclude Include="Functions.h" />
     <ClInclude Include="MenuBase.h" />
     <ClInclude Include="PS3Pad.h" />
+    <ClInclude Include="Render.h" />
     <ClInclude Include="Structs.h" />
   </ItemGroup>
   <Import Condition="'$(ConfigurationType)' == 'Makefile' and Exists('$(VCTargetsPath)\Platforms\$(Platform)\SCE.Makefile.$(Platform).targets')" Project="$(VCTargetsPath)\Platforms\$(Platform)\SCE.Makefile.$(Platform).targets" />
